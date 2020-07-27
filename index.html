@@ -1,31 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-	<head>
-		<title>Pranav Patel</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<div class="main-area center-text" style="background-image:url(images/realpranav_bg.jpg);">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pranav Patel</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span></span>Pranav <span>Patel</span></h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Pranav Patel!</h1>
-				<p>I'm Android software developer.</p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:realpranav.me@gmail.com">Email</a></li>
-        		<li><a href="https://github.com/realpranavp">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/realpranav/">LinkedIn</a></li>
-            <li><a href="https://stackoverflow.com/users/4395804/realpranav">StackOverflow</a></li>
-			</ul>
-		</footer>
-	</body>
+
+  <!-- Home Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Pranav <span></span></h1>
+        <a href="#about" type="button" class="cta">About</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Home Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Android software Engineer</h2>
+        <p>I am Android software Engineer..!</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+			<a href="Tel: +61432985898"></a>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+61432985898</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+			<a href="mailto:realpranav.me@gmail.com"></a>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>realpranav.me@gmail.com</h2>
+          </div>
+        </div>
+	</div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <h1>Pranav Patel</h1>
+	  <h2>Android software Engineer</h2>
+	  <div class="social-icon">
+        <div class="social-item">
+        	<a href="https://www.linkedin.com/in/realpranav/"></a>
+			<img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
+		</div>
+		<div class="social-item">
+			<a href="https://github.com/realpranavp">
+				<img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+			</a>
+		</div>
+		<div class="social-item">
+			<a href="https://stackoverflow.com/users/4395804/realpranav">
+				<img src="https://img.icons8.com/color/48/000000/stackoverflow.png"/>
+			</a>
+		</div>
+		<div class="social-item">
+			<a href="#">
+				<img src="https://img.icons8.com/ios-filled/50/000000/medium-monogram.png"/>
+			</a>
+		</div>
+        <div class="social-item">
+        	<a href="https://api.whatsapp.com/send?phone=61432985898">
+				<img src="https://img.icons8.com/color/48/000000/whatsapp.png"/>
+			</a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Pranav. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
 </html>
